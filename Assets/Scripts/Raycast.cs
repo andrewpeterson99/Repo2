@@ -5,7 +5,6 @@ public class Raycast : MonoBehaviour {
 	
 	public float distance;
 	public float power;
-	public GameObject plat;
 	Vector3 platPosition;
 	public GameObject cup;
 	private Vector3 cupPosition;
@@ -37,7 +36,7 @@ public class Raycast : MonoBehaviour {
 					hitInfo.rigidbody.AddForceAtPosition(rayOrigin.direction * power, hitInfo.point);
 					//This changes color
 					//hitInfo.transform.GetComponent<Renderer>().material.color = Color.green;
-					Instantiate(plat, platPosition, Quaternion.identity);
+					//Instantiate(plat, platPosition, Quaternion.identity);
 					
 				}
 			}
@@ -53,7 +52,10 @@ public class Raycast : MonoBehaviour {
 			GameObject.Destroy(cup);
 		}
 		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Cursor.lockState = CursorLockMode.None;
 			Application.Quit ();
+		} else {
+			Cursor.lockState = CursorLockMode.Locked;
 		}
 		
 		
