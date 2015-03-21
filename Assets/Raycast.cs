@@ -53,7 +53,10 @@ public class Raycast : MonoBehaviour {
 			GameObject.Destroy(cup);
 		}
 		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Cursor.lockState = CursorLockMode.None;
 			Application.Quit ();
+		} else {
+			Cursor.lockState = CursorLockMode.Locked;
 		}
 		
 		
