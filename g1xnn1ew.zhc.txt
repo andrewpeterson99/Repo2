@@ -1,0 +1,41 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	Assets/CubeColor2.png.meta
+	Assets/Materials/CubeColor2.mat
+	Assets/Materials/CubeColor2.mat.meta
+	Assets/Materials/unnamed.mat.meta
+	Assets/wood2.blend.meta
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   Assets/CubeColor2.png.meta
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA.meta
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_alb.tga
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_alb.tga.meta
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_d.tga
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_d.tga.meta
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_g.tga
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_g.tga.meta
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_s.tga
+#	new file:   Assets/Marble_NeroMarquina_1k_TGA/Marble_NeroMarquina_1k_s.tga.meta
+#	modified:   Assets/Materials/CubeColor2.mat
+#	modified:   Assets/Materials/CubeColor2.mat.meta
+#	modified:   Assets/Materials/unnamed.mat.meta
+#	modified:   Assets/wood2.blend.meta
+#
+
