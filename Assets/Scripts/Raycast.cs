@@ -11,9 +11,12 @@ public class Raycast : MonoBehaviour {
 	public int amt;
 	private bool temp = true;
 	public float powerPull;
+	public Texture2D cursorTexture;
+	private Vector2 hotSpot = Vector2.zero;
 	
 	// Use this for initialization
 	void Start () {
+		Cursor.SetCursor(cursorTexture, hotSpot, CursorMode.Auto);
 		platPosition = new Vector3 (0, 30, 0);
 		cupPosition = new Vector3 (0, 15, 0);
 	}
